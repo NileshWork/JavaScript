@@ -5,6 +5,12 @@
         <script>
             alert("Hello, Good Morning");
         </script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js">lodash.js</script> -->
+        <script src="./script.js">hi</script>
+        <!-- we can't add the code inside the script if we add the src in script -->
+        <script src="./script.js">
+            alert(1); // the content is ignored, because src is set
+          </script>
         <p>After the script</p>
     </body>
 </html>
